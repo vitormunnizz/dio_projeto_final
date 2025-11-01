@@ -1,12 +1,6 @@
 # 🛒 E-commerce Simples: Evolução para Microservices
 
-Este repositório contém a **implementação inicial simples** de um sistema de gerenciamento de **Estoque e Vendas** para e-commerce, construído com **.NET Core Minimal APIs** e **SQLite**.
-
-O projeto serve como **ponto de partida (Monolito Inicial)** para o desafio técnico de refatorar e evoluir a aplicação para uma arquitetura de **Microserviços** distribuídos, conforme as boas práticas de **.NET Core, RabbitMQ e API Gateway**.
-
-\<div align="center"\>
-  [Imagem de um gráfico mostrando a evolução de Monolito para Microserviços]
-\</div\>
+Este repositório contém a implementação de um sistema de gerenciamento de **Estoque e Vendas** para e-commerce, construído com **.NET Core Minimal APIs**.
 
 ## 🧠 Tecnologias Utilizadas (Implementação Atual)
 
@@ -61,7 +55,7 @@ dotnet run
 
 *Após a execução, acesse `http://localhost:[Porta]/swagger` para testar os endpoints.*
 
-## 💻 Funcionalidades Implementadas (Monolito)
+## 💻 Funcionalidades Implementadas
 
 O **`Program.cs`** centraliza a lógica síncrona de Estoque e Vendas:
 
