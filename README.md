@@ -91,6 +91,3 @@ Este projeto está licenciado sob a **MIT License**.
 Sinta-se livre para usar e modificar conforme necessário, mantendo os créditos ao autor.
 
 ⭐ **Se este projeto te ajudou, deixe uma estrela no repositório\!**
-O `README` agora está 100% alinhado com o seu código atual, ao mesmo tempo que enquadra o projeto dentro do contexto de **evolução para Microserviços**.
-
-Gostaria que eu detalhasse a primeira etapa do desafio, que é **separar a lógica de Estoque da lógica de Vendas** em projetos .NET Core distintos?
