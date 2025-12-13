@@ -1,15 +1,15 @@
-# 🛒 E-commerce Simples: Evolução para Microservices
+# E-commerce Simples: Evolução para Microservices
 
 Este repositório contém a implementação de um sistema de gerenciamento de **Estoque e Vendas** para e-commerce, construído com **.NET Core Minimal APIs**.
 
-## 🧠 Tecnologias Utilizadas (Implementação Atual)
+## Tecnologias Utilizadas (Implementação Atual)
 
   * **.NET Core Minimal APIs (C\#)** – Para a construção dos endpoints HTTP leves.
   * **Entity Framework Core** – ORM.
   * **SQLite** – Banco de dados leve e local (`ecommerce.db`).
   * **Swagger/OpenAPI** – Para documentação e teste dos endpoints.
 
-## 🎯 Objetivo do Desafio (Próximos Passos)
+## Objetivo do Desafio (Próximos Passos)
 
 O objetivo final é a **divisão** do código atual em componentes independentes, introduzindo resiliência e escalabilidade:
 
@@ -19,7 +19,7 @@ O objetivo final é a **divisão** do código atual em componentes independentes
 4.  **RabbitMQ:** Para comunicação **assíncrona** (Venda notifica Estoque).
 5.  **JWT:** Para autenticação em todos os serviços.
 
-## 📂 Estrutura do Projeto (Atual)
+## Estrutura do Projeto (Atual)
 
 O projeto está configurado como um **monolito simples** que gerencia todas as entidades.
 
@@ -33,7 +33,7 @@ ecommerce-simples/
 └── dio.sln              # Arquivo de Solução
 ```
 
-## ⚙️ Como Executar o Projeto
+## Como Executar o Projeto
 
 O projeto utiliza um banco de dados SQLite local, o que facilita a execução.
 
@@ -55,7 +55,7 @@ dotnet run
 
 *Após a execução, acesse `http://localhost:[Porta]/swagger` para testar os endpoints.*
 
-## 💻 Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
 O **`Program.cs`** centraliza a lógica síncrona de Estoque e Vendas:
 
@@ -67,7 +67,7 @@ O **`Program.cs`** centraliza a lógica síncrona de Estoque e Vendas:
 | **Vendas** | `POST /orders` | **Redução de Estoque:** Atualiza `Product.Quantity -= Order.Quantity` no mesmo `Db.SaveChangesAsync()`. |
 | **Vendas** | `GET /orders` | Listagem de pedidos. |
 
-## 🧱 Próximos Passos do Desafio
+## Próximos Passos do Desafio
 
 As seguintes melhorias são necessárias para cumprir o requisito de Microserviços:
 
@@ -76,18 +76,18 @@ As seguintes melhorias são necessárias para cumprir o requisito de Microservi�
 3.  **Implementar Autenticação JWT:** Proteger todos os endpoints.
 4.  **Configurar API Gateway (Ocelot):** Para rotear o tráfego externo para os novos serviços.
 
-## 👨‍💻 Autor
+## Autor
 
 **Vitor Hugo Muniz de Sousa Santos**
 
-💼 Engenheiro da Computação | Desenvolvedor Front-end
+Engenheiro da Computação | Desenvolvedor Front-end
 
-📧 [vitormunnizzdev@gmail.com](mailto:vitormunnizzdev@gmail.com)
-🌐 [www.linkedin.com/in/vitormunnizz](https://www.linkedin.com/in/vitormunnizz)
+[vitormunnizzdev@gmail.com](mailto:vitormunnizzdev@gmail.com)
+[www.linkedin.com/in/vitormunnizz](https://www.linkedin.com/in/vitormunnizz)
 
-## 📝 Licença
+## Licença
 
 Este projeto está licenciado sob a **MIT License**.
 Sinta-se livre para usar e modificar conforme necessário, mantendo os créditos ao autor.
 
-⭐ **Se este projeto te ajudou, deixe uma estrela no repositório\!**
+**Se este projeto te ajudou, deixe uma estrela no repositório\!**
