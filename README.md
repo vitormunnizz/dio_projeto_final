@@ -82,12 +82,5 @@ As seguintes melhorias são necessárias para cumprir o requisito de Microservi�
 
 Engenheiro da Computação | Desenvolvedor Front-end
 
-[vitormunnizzdev@gmail.com](mailto:vitormunnizzdev@gmail.com)
+[vitormunnizzd@gmail.com](mailto:vitormunnizz@gmail.com)
 [www.linkedin.com/in/vitormunnizz](https://www.linkedin.com/in/vitormunnizz)
-
-## Licença
-
-Este projeto está licenciado sob a **MIT License**.
-Sinta-se livre para usar e modificar conforme necessário, mantendo os créditos ao autor.
-
-**Se este projeto te ajudou, deixe uma estrela no repositório\!**
