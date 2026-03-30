@@ -82,5 +82,5 @@ As seguintes melhorias são necessárias para cumprir o requisito de Microservi�
 
 Engenheiro da Computação | Desenvolvedor Front-end
 
-[vitormunnizzd@gmail.com](mailto:vitormunnizz@gmail.com)
-[www.linkedin.com/in/vitormunnizz](https://www.linkedin.com/in/vitormunnizz)
+- [vitormunnizzd@gmail.com](mailto:vitormunnizz@gmail.com)
+- [www.linkedin.com/in/vitormunnizz](https://www.linkedin.com/in/vitormunnizz)
